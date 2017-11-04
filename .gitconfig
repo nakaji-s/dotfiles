@@ -1,0 +1,21 @@
+[user]
+        email = nakajima.sota.sub@gmail.com
+        name = nakaji-s
+[color]
+        ui = true
+[alias]
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[push]
+        default = simple
+
+[core]
+        editor = vim -c \"set fenc=utf-8\"
+        quotepath = false
+[interactive]
+        singlekey = true
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+
+[http]
+	postBuffer = 524288000
